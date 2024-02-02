@@ -29,7 +29,7 @@ function Footer(props) {
 						/>
 					</a>
 				</div>
-				<p className="footer__copyrights-text">Copyright © 2023 Wyvern. All Rights Reserved.</p>
+				<p className="footer__copyrights-text">Copyright © 2023 CodeWithMe. All Rights Reserved.</p>
 			</section>
         </div>
     );
