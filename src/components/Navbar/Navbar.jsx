@@ -61,7 +61,7 @@ function Navbar(props) {
 							</NavLink>
 						</li>
                         <li className="nav-item">
-                            <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Join Discord</a>
+                            <a href="https://wa.me/9477717167" target='_blank' className="nav-links">Let's Chat</a>
 						</li>
 					</ul>
 					<div className="nav-icon" onClick={handleClick}>
