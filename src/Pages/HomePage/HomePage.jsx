@@ -64,52 +64,21 @@ function HomePage(props) {
                                         Book the zoom session
                                   </a>
                                  </div> */}
+                <section className="btn-section">
+                <a
+                        href="https://discord.com"
+                        target="_blank"
+                        className="btn btn-primary"
+                    >
+                        Book the Zoom Session for Free
+                    </a>
+                </section>
 
                 /* Wrapper for background
                 <div className="wrapper-top">
                     /* Stats Section */
 
-                    <section className="stats padding">
-                        <div class="video-container">
-                            {/* <iframe
-                                class="video-iframe"
-                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                                title="Rick Roll"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe> */}
-                             
-                        </div> 
-                        <div className="stats__container">
-                            <div className="stats__container__item">
-                                <h2 className="stats__container__item__counter">
-                                    <Ticker
-                                        end={100}
-                                        duration={1}
-                                        suffix=" +"
-                                    />
-                                </h2>
-                                <p className="stats__container__item__description">
-                                    Unique Clients
-                                </p>
-                            </div>
-                            <div className="stats__container__border"></div>
-                            <div className="stats__container__item">
-                                <h2 className="stats__container__item__counter">
-                                    <Ticker
-                                        end={100}
-                                        duration={1}
-                                        suffix=" +"
-                                    />
-                                </h2>
-                                <p className="stats__container__item__description">
-                                    Freelancers
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
+                
                     {/* Services Section */}
                     <section className="services padding">
                         <h2 className="services__heading">OUR SERVICES</h2>
