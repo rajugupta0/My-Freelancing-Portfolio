@@ -28,33 +28,59 @@ function HomePage(props) {
                         <source src={bgMp4} type="video/mp4" />
                     </video>
                     <div className="header__brand " id="tsparticles">
-                        <h1 className="hidden-title">Wyvern Team</h1>
+                        <h1 className="hidden-title">CodeWothMe Team</h1>
                         <img
                             src={headerLogo}
                             alt=""
                             className="header__brand__icon"
                         />
                         <p className="header__brand__description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                        Are you a small business owner looking to establish a powerful online presence without breaking the bank? 
+                        Look no further! CodeWithMe is here to revolutionize your digital journey. </p>
                     </div>
                 </section>
+                
+                   {/* Call to Action Section
+             <section className="cta padding">
+                <h2 className="cta__heading">Ready to Boost Your Business Online?</h2>
+                <p className="cta__description">
+                    Book a personalized Zoom session with our experts to discuss your business needs and explore how we can elevate your online presence.
+                </p>
+                <a
+                    href="YOUR_BOOKING_LINK_HERE"  // Replace with your actual booking link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                >
+                    Book Zoom Session
+                </a>
+            </section> */}
+            {/*  <div className="centered-button">
+                                 <a
+                                     href="https://discord.com"
+                                        target="_blank"
+                                     className="btn btn-primary"
+                                        >
+                                        Book the zoom session
+                                  </a>
+                                 </div> */}
 
-                {/* Wrapper for background */}
+                /* Wrapper for background
                 <div className="wrapper-top">
-                    {/* Stats Section */}
+                    /* Stats Section */
 
                     <section className="stats padding">
                         <div class="video-container">
-                            <iframe
+                            {/* <iframe
                                 class="video-iframe"
                                 src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                                 title="Rick Roll"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
-                            ></iframe>
-                        </div>
+                            ></iframe> */}
+                             
+                        </div> 
                         <div className="stats__container">
                             <div className="stats__container__item">
                                 <h2 className="stats__container__item__counter">
@@ -101,7 +127,8 @@ function HomePage(props) {
                                         Web Development
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Let our expert designers create a visually stunning and functional website tailored to your brand.
+                                     From user-friendly interfaces to mobile optimization, we've got your website needs covered.
                                     </p>
                                 </div>
                             </div>
@@ -115,10 +142,11 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Plugin Development
+                                    Affordable Packages
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Choose from our range of affordable packages designed to suit businesses of all sizes.
+                                     Whether you're just starting or looking to revamp your current site, we have the perfect solution for you.
                                     </p>
                                 </div>
                             </div>
@@ -132,10 +160,12 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Minecraft Configuration
+                                    E-commerce Solutions
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Take your business online with our e-commerce solutions. 
+                                    Our platforms are equipped with robust features to enhance your online store, 
+                                    from secure payment gateways to inventory management.
                                     </p>
                                 </div>
                             </div>
@@ -149,10 +179,10 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Discord Bot Development
+                                        Telegram Bot Development
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    web also Develop bots according to the coustomers need.
                                     </p>
                                 </div>
                             </div>
@@ -166,10 +196,11 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Design
+                                    User Training:
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Not familiar with managing a website? No worries!
+                                     Our user training ensures you have the knowledge to navigate and update your site with confidence.
                                     </p>
                                 </div>
                             </div>
@@ -183,10 +214,11 @@ function HomePage(props) {
                                 </div>
                                 <div className="services__container__item__description">
                                     <h3 className="services__container__item__description__heading">
-                                        Minecraft Design
+                                    Rapid Deployment
                                     </h3>
                                     <p className="services__container__item__description__details">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Need a website fast? Our streamlined processes enable us to deploy your site quickly, 
+                                    getting you online and visible to your audience in no time.
                                     </p>
                                 </div>
                             </div>
@@ -205,10 +237,11 @@ function HomePage(props) {
                                 className="features__container__item__icon"
                             />
                             <h3 className="features__container__item__heading">
-                                Quality
+                            Affordable Web Solutions
                             </h3>
                             <p className="features__container__item__details">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            We understand the budget constraints of small businesses.
+                             Our cost-effective packages ensure you get a professional website without compromising quality.
                             </p>
                         </div>
                         <div className="features__container__item card-hover">
@@ -218,10 +251,12 @@ function HomePage(props) {
                                 className="features__container__item__icon"
                             />
                             <h3 className="features__container__item__heading">
-                                Affordable
+                            Expert Support and Maintenance
                             </h3>
                             <p className="features__container__item__details">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Enjoy peace of mind with our dedicated support and maintenance team. 
+                            From technical glitches to updates, we've got you covered, 
+                            so you can focus on what you do best - running your business.
                             </p>
                         </div>
                         <div className="features__container__item card-hover">
@@ -231,10 +266,11 @@ function HomePage(props) {
                                 className="features__container__item__icon"
                             />
                             <h3 className="features__container__item__heading">
-                                Efficient
+                            Tailored for Small Businesses:
                             </h3>
                             <p className="features__container__item__details">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Our solutions are crafted with small businesses in mind. Whether you're a local store, a service provider,
+                             or a startup, our customizable templates and features are designed to suit your unique needs.
                             </p>
                         </div>
                         <div className="features__container__item card-hover">
@@ -244,10 +280,11 @@ function HomePage(props) {
                                 className="features__container__item__icon"
                             />
                             <h3 className="features__container__item__heading">
-                                Professional
+                            Modern Designs, Mobile-Optimized:
                             </h3>
                             <p className="features__container__item__details">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry..
+                            Make a lasting impression with our modern, mobile-responsive designs.
+                             Your website will look stunning and function seamlessly on any device.
                             </p>
                         </div>
                     </div>
@@ -463,6 +500,7 @@ function HomePage(props) {
                     >
                         Join Our Discord
                     </a>
+                    
                 </section>
             </main>
         </>
