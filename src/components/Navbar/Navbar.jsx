@@ -40,7 +40,7 @@ function Navbar(props) {
 								Home
 							</NavLink>
 						</li>
-						<li className="nav-item">
+						{/* <li className="nav-item">
 							<NavLink
 								to="/portfolio"
 								className="nav-links"
@@ -49,7 +49,7 @@ function Navbar(props) {
 							>
 								Portfolio
 							</NavLink>
-						</li>
+						</li> */}
 						<li className="nav-item">
 							<NavLink
 								to="/tos"
