@@ -28,7 +28,7 @@ function HomePage(props) {
                         <source src={bgMp4} type="video/mp4" />
                     </video>
                     <div className="header__brand " id="tsparticles">
-                        <h1 className="hidden-title">CodeWothMe Team</h1>
+                        <h1 className="hidden-title">SideView Team</h1>
                         <img
                             src={headerLogo}
                             alt=""
@@ -36,7 +36,7 @@ function HomePage(props) {
                         />
                         <p className="header__brand__description">
                         Are you a small business owner looking to establish a powerful online presence without breaking the bank? 
-                        Look no further! CodeWithMe is here to revolutionize your digital journey. </p>
+                        Look no further! SideView is here to revolutionize your digital journey. </p>
                     </div>
                 </section>
                 
