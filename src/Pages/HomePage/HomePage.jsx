@@ -57,7 +57,7 @@ function HomePage(props) {
             </section> */}
             {/*  <div className="centered-button">
                                  <a
-                                     href="https://discord.com"
+                                     href="https://forms.gle/D3sag9xJkTifq8XG8"
                                         target="_blank"
                                      className="btn btn-primary"
                                         >
@@ -66,7 +66,7 @@ function HomePage(props) {
                                  </div> */}
                 <section className="btn-section">
                 <a
-                        href="https://discord.com"
+                        href="https://forms.gle/D3sag9xJkTifq8XG8"
                         target="_blank"
                         className="btn btn-primary"
                     >
@@ -311,22 +311,89 @@ function HomePage(props) {
                                             alt=""
                                             className="reviews__carousel__item__stars__star"
                                         />
+                                       
+                                    </div>
+                                    <p className="reviews__carousel__item__details">
+                                        I just needed a simple website no fancy stuff 
+                                        they understood the requirement and my website was live within 15 days and at very discounted price.
+                                    </p>
+                                    <h2 className="reviews__carousel__item__name">
+                                        Rahul Kundu
+                                    </h2>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
+                                <div className="reviews__carousel__item">
+                                    <div className="reviews__carousel__item__stars">
                                         <img
                                             src="./star.png"
                                             alt=""
                                             className="reviews__carousel__item__stars__star"
                                         />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                         <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                       
                                     </div>
                                     <p className="reviews__carousel__item__details">
-                                        Lorem Ipsum is simply dummy text of the
-                                        printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard
-                                        dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type
-                                        and scrambled it to form a great text body.
+                                       i used to sell jwellary through facebook but one of my friend recommended me 
+                                       there service and got satisfactory results.
                                     </p>
                                     <h2 className="reviews__carousel__item__name">
-                                        Jason Mark
+                                        Riya chowdhury
+                                    </h2>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
+                                <div className="reviews__carousel__item">
+                                    <div className="reviews__carousel__item__stars">
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        <img
+                                            src="./star.png"
+                                            alt=""
+                                            className="reviews__carousel__item__stars__star"
+                                        />
+                                        
+                                    </div>
+                                    <p className="reviews__carousel__item__details">
+                                        They got my website ready before the due date very good experience,
+                                        the website was fully professional and Pricing was Good.
+                                    </p>
+                                    <h2 className="reviews__carousel__item__name">
+                                        Mehak Singh
                                     </h2>
                                 </div>
                             </SwiperSlide>
@@ -361,101 +428,11 @@ function HomePage(props) {
                                         />
                                     </div>
                                     <p className="reviews__carousel__item__details">
-                                        Lorem Ipsum is simply dummy text of the
-                                        printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard
-                                        dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type
-                                        and scrambled it to
+                                        Naya Website namwaya yha se aur dil se khush hu
+                                        i highly recommend then and behaviour is very good.
                                     </p>
                                     <h2 className="reviews__carousel__item__name">
-                                        Jason Mark
-                                    </h2>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                {" "}
-                                <div className="reviews__carousel__item">
-                                    <div className="reviews__carousel__item__stars">
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                    </div>
-                                    <p className="reviews__carousel__item__details">
-                                        Lorem Ipsum is simply dummy text of the
-                                        printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard
-                                        dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type
-                                        and scrambled it to
-                                    </p>
-                                    <h2 className="reviews__carousel__item__name">
-                                        Jason Mark
-                                    </h2>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                {" "}
-                                <div className="reviews__carousel__item">
-                                    <div className="reviews__carousel__item__stars">
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                        <img
-                                            src="./star.png"
-                                            alt=""
-                                            className="reviews__carousel__item__stars__star"
-                                        />
-                                    </div>
-                                    <p className="reviews__carousel__item__details">
-                                        Lorem Ipsum is simply dummy text of the
-                                        printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard
-                                        dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type
-                                        and scrambled it to
-                                    </p>
-                                    <h2 className="reviews__carousel__item__name">
-                                        Jason Mark
+                                        Abhishek Mitra
                                     </h2>
                                 </div>
                             </SwiperSlide>
@@ -463,11 +440,11 @@ function HomePage(props) {
                         <img src="./btn-next.png" alt="" className="next" />
                     </div>
                     <a
-                        href="https://discord.com"
+                        href="https://wa.me/9477717167"
                         target="_blank"
                         className="btn btn-primary"
                     >
-                        Join Our Discord
+                        Resolve Your query On Whatsapp
                     </a>
                     
                 </section>
